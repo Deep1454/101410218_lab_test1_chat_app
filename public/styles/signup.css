@@ -1,0 +1,41 @@
+/* Apply a white background with green accents */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Signup container */
+.signup-container {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 128, 0, 0.2); /* Green shadow effect */
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Input fields */
+.form-control {
+    border: 1px solid #28a745; /* Green border */
+}
+
+.form-control:focus {
+    border-color: #218838;
+    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Green glow effect */
+}
+
+/* Signup Button */
+.btn-primary {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #218838;
+}
+
+/* Message Styling */
+#signupMessage {
+    font-size: 14px;
+    font-weight: bold;
+}
